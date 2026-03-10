@@ -1,0 +1,18 @@
+# load 테스트 오버라이드 (로컬 소규모 클러스터 ≈ 100노드 기준의 3%)
+# 노드 수에 따라 totalPods는 자동 비례 → PODS_PER_NODE·처리량은 기본값 명시.
+# BIG/MEDIUM/SMALL_GROUP_SIZE는 "컨트롤러당 레플리카 수"라 노드와 비례하지 않으므로 3%로 직접 계산해 지정.
+
+PODS_PER_NODE: 30
+
+# 기본 250 → 3% ≈ 8
+BIG_GROUP_SIZE: 8
+
+# 기본 30 → 3% ≈ 1
+MEDIUM_GROUP_SIZE: 1
+
+# 기본 5 → 3% ≈ 1
+SMALL_GROUP_SIZE: 1
+
+# 기본 10 (totalPods가 줄어들어 saturationTime/deletionTime은 자동으로 짧아짐)
+# CL2_LOAD_TEST_THROUGHPUT: 10
+# CL2_DELETE_TEST_THROUGHPUT: 10
