@@ -1,0 +1,33 @@
+# control-plane 노드에서 hostNetwork로 127.0.0.1:10259 직접 호출
+# → 스케줄러가 bind-address=127.0.0.1 이므로 이 경로만 성공함
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: scheduler-curl-localhost
+  namespace: default
+spec:
+  ttlSecondsAfterFinished: 120
+  template:
+    spec:
+      hostNetwork: true
+      nodeSelector:
+        node-role.kubernetes.io/control-plane: ""
+      tolerations:
+      - key: node-role.kubernetes.io/control-plane
+        operator: Exists
+        effect: NoSchedule
+      restartPolicy: Never
+      containers:
+      - name: curl
+        image: curlimages/curl:latest
+        command:
+        - sh
+        - -c
+        - |
+          echo "=== curl https://127.0.0.1:10259/metrics (direct localhost) ==="
+          code=$(curl -sk -o /tmp/out -w "%{http_code}" https://127.0.0.1:10259/metrics)
+          echo "HTTP code: $code"
+          echo "First 15 lines:"
+          head -15 /tmp/out
+          exit 0
+  backoffLimit: 0

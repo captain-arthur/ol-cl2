@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="ClusterLoaderV2" tests="0" failures="0" errors="0" time="122.18">
+      <testcase name="density overall (testing/density/config.yaml)" classname="ClusterLoaderV2" time="122.174099875"></testcase>
+      <testcase name="density: [step: 01] Starting measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.010392291"></testcase>
+      <testcase name="density: [step: 01] Starting measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.010398041"></testcase>
+      <testcase name="density: [step: 01] Starting measurements [02] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="0.010620875"></testcase>
+      <testcase name="density: [step: 01] Starting measurements [03] - DnsLookupLatency" classname="ClusterLoaderV2" time="0.01062525"></testcase>
+      <testcase name="density: [step: 01] Starting measurements [04] - TestMetrics" classname="ClusterLoaderV2" time="0.145442291"></testcase>
+      <testcase name="density: [step: 02] Starting saturation pod measurements [00] - SaturationPodStartupLatency" classname="ClusterLoaderV2" time="0.102437083"></testcase>
+      <testcase name="density: [step: 02] Starting saturation pod measurements [01] - WaitForRunningSaturationDeployments" classname="ClusterLoaderV2" time="0.204182875"></testcase>
+      <testcase name="density: [step: 02] Starting saturation pod measurements [02] - SchedulingThroughput" classname="ClusterLoaderV2" time="0.052474833"></testcase>
+      <testcase name="density: [step: 03] Creating saturation pods" classname="ClusterLoaderV2" time="0.203629458"></testcase>
+      <testcase name="density: [step: 04] Waiting for saturation pods to be running [00] - WaitForRunningSaturationDeployments" classname="ClusterLoaderV2" time="49.847696708"></testcase>
+      <testcase name="density: [step: 05] Collecting saturation pod measurements [00] - SaturationPodStartupLatency" classname="ClusterLoaderV2" time="0.034807459"></testcase>
+      <testcase name="density: [step: 05] Collecting saturation pod measurements [01] - SchedulingThroughput" classname="ClusterLoaderV2" time="0.00338025"></testcase>
+      <testcase name="density: [step: 06] Starting latency pod measurements [00] - PodStartupLatency" classname="ClusterLoaderV2" time="0.101734916"></testcase>
+      <testcase name="density: [step: 06] Starting latency pod measurements [01] - WaitForRunningLatencyDeployments" classname="ClusterLoaderV2" time="0.10170775"></testcase>
+      <testcase name="density: [step: 07] Creating latency pods" classname="ClusterLoaderV2" time="0.6038005"></testcase>
+      <testcase name="density: [step: 08] Waiting for latency pods to be running [00] - WaitForRunningLatencyDeployments" classname="ClusterLoaderV2" time="5.008877375"></testcase>
+      <testcase name="density: [step: 09] Deleting latency pods" classname="ClusterLoaderV2" time="0.604327291"></testcase>
+      <testcase name="density: [step: 10] Waiting for latency pods to be deleted [00] - WaitForRunningLatencyDeployments" classname="ClusterLoaderV2" time="5.005106"></testcase>
+      <testcase name="density: [step: 11] Collecting pod startup latency [00] - PodStartupLatency" classname="ClusterLoaderV2" time="0.026440334"></testcase>
+      <testcase name="density: [step: 12] Deleting saturation pods" classname="ClusterLoaderV2" time="0.201420417"></testcase>
+      <testcase name="density: [step: 13] Waiting for saturation pods to be deleted [00] - WaitForRunningSaturationDeployments" classname="ClusterLoaderV2" time="49.819844542"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements [00] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.004415625"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements [01] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.004408958"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements [02] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="0.004452416"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements [03] - DnsLookupLatency" classname="ClusterLoaderV2" time="0.004419875"></testcase>
+      <testcase name="density: [step: 14] Collecting measurements [04] - TestMetrics" classname="ClusterLoaderV2" time="0.331589125"></testcase>
+  </testsuite>

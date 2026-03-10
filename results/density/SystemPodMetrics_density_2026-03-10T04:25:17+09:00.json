@@ -1,0 +1,124 @@
+{
+  "pods": [
+    {
+      "name": "kube-controller-manager-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:09 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://731dd95a680f66a1780280f1baf1857bba212bd58d70260d1101fe8555638cff,}"
+        }
+      ]
+    },
+    {
+      "name": "coredns-565d847f94-sjdt2",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:47 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://913627efeef9320e3e9f970be95574593c0624f6a9b1b5755e8258ec0d8652ce,}"
+        }
+      ]
+    },
+    {
+      "name": "kindnet-vff6n",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:31 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://5f507ed09e3778baba9dd59d8988d8251d8ea7e0ef176067c787fa14bcf3e517,}"
+        }
+      ]
+    },
+    {
+      "name": "etcd-desktop-control-plane",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:10 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://14d8ec1bf9cee271b4479453ae4cbeeb9b23b04d0c086f7eed3bda7e7b4463ce,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:09 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://c3017aad34d505385fe0db14a236df04017303a5930c1738ef1c9bc65d3b464c,}"
+        }
+      ]
+    },
+    {
+      "name": "coredns-565d847f94-bv7r8",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:46 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://9ab339f6cdc50063e371c1ee868f2efea45945b592303e01ba70ded9c274cbf3,}"
+        }
+      ]
+    },
+    {
+      "name": "kindnet-lvq8v",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-g9hng",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-10 00:34:30 +0900 KST,FinishedAt:2026-03-10 00:34:59 +0900 KST,ContainerID:containerd://5f531863ab729b8a96cb66596d0088fd3e010cb94cab51330c685c5da95b519a,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-kmnlj",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-sb4wq",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-kbn2p",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    }
+  ]
+}

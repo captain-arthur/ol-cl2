@@ -1,0 +1,18 @@
+# ---------- 공통 (테스트 전체) ----------
+# SLI: APIResponsivenessPrometheus, APIResponsivenessPrometheusSimple, InClusterNetworkLatency, DnsLookupLatency, TestMetrics
+# SLO: APIResponsivenessPrometheus, APIResponsivenessPrometheusSimple, TestMetrics
+
+# ---------- Saturation (부하 구간) ----------
+# 파드 수 조절: 총 부하 파드 수 = 노드 수 × PODS_PER_NODE
+# SLI: SaturationPodStartupLatency, SchedulingThroughput
+# SLO: SaturationPodStartupLatency, SchedulingThroughput, WaitForRunningSaturationDeployments
+#     - SchedulingThroughput SLO: CL2_SCHEDULER_THROUGHPUT_THRESHOLD (pods/s), CL2_ENABLE_VIOLATIONS_FOR_SCHEDULING_THROUGHPUT
+PODS_PER_NODE: 110
+CL2_SCHEDULER_THROUGHPUT_THRESHOLD: 0.3   # 예시: 3-node Kind 기준, 현재 max≈0.6 → 절반 수준
+CL2_ENABLE_VIOLATIONS_FOR_SCHEDULING_THROUGHPUT: true
+
+# ---------- Latency (지연 측정 구간) ----------
+# 파드 수 조절: 지연 측정용 파드 수 = MIN_LATENCY_PODS
+# SLI: PodStartupLatency
+# SLO: PodStartupLatency, WaitForRunningLatencyDeployments
+MIN_LATENCY_PODS: 3

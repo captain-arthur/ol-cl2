@@ -1,0 +1,30 @@
+# API server를 통해 Pod proxy로 스케줄러 메트릭 요청 (CL2와 동일 경로)
+# → API server가 스케줄러 Pod IP:10259로 연결 시도 → bind-address=127.0.0.1 이라 실패
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: scheduler-proxy-via-apiserver
+  namespace: default
+spec:
+  ttlSecondsAfterFinished: 120
+  template:
+    spec:
+      serviceAccountName: scheduler-proxy-test
+      restartPolicy: Never
+      containers:
+      - name: curl
+        image: curlimages/curl:latest
+        command:
+        - sh
+        - -c
+        - |
+          echo "=== curl via API server Pod proxy (same path as CL2) ==="
+          TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+          CA=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
+          URL="https://kubernetes.default.svc/api/v1/namespaces/kube-system/pods/https:kube-scheduler-desktop-control-plane:10259/proxy/metrics"
+          code=$(curl -sk -o /tmp/out -w "%{http_code}" --cacert "$CA" -H "Authorization: Bearer $TOKEN" "$URL")
+          echo "HTTP code: $code"
+          echo "Response (first 20 lines):"
+          head -20 /tmp/out
+          [ "$code" = "200" ] && exit 0 || exit 1
+  backoffLimit: 0

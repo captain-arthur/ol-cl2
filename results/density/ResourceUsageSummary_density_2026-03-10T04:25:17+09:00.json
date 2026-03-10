@@ -1,0 +1,430 @@
+{
+  "100": [
+    {
+      "Name": "coredns-565d847f94-bv7r8/coredns",
+      "CPU": 0.002130039,
+      "Mem": 23564288
+    },
+    {
+      "Name": "coredns-565d847f94-sjdt2/coredns",
+      "CPU": 0.002501805,
+      "Mem": 22491136
+    },
+    {
+      "Name": "desktop-control-plane/kubelet",
+      "CPU": 0.024513606,
+      "Mem": 54284288
+    },
+    {
+      "Name": "desktop-control-plane/pods",
+      "CPU": 0.272760452,
+      "Mem": 652967936
+    },
+    {
+      "Name": "desktop-control-plane/runtime",
+      "CPU": 0.011835139,
+      "Mem": 114405376
+    },
+    {
+      "Name": "desktop-worker/kubelet",
+      "CPU": 0.087437144,
+      "Mem": 60952576
+    },
+    {
+      "Name": "desktop-worker/pods",
+      "CPU": 0.185844659,
+      "Mem": 66940928
+    },
+    {
+      "Name": "desktop-worker/runtime",
+      "CPU": 0.17677013,
+      "Mem": 232292352
+    },
+    {
+      "Name": "desktop-worker2/kubelet",
+      "CPU": 0.039813287,
+      "Mem": 67350528
+    },
+    {
+      "Name": "desktop-worker2/pods",
+      "CPU": 0.006772828,
+      "Mem": 73150464
+    },
+    {
+      "Name": "desktop-worker2/runtime",
+      "CPU": 0.031990775,
+      "Mem": 391036928
+    },
+    {
+      "Name": "etcd-desktop-control-plane/etcd",
+      "CPU": 0.058839124,
+      "Mem": 95703040
+    },
+    {
+      "Name": "kindnet-lvq8v/kindnet-cni",
+      "CPU": 0.003088346,
+      "Mem": 16871424
+    },
+    {
+      "Name": "kindnet-sb4wq/kindnet-cni",
+      "CPU": 0.002158473,
+      "Mem": 17350656
+    },
+    {
+      "Name": "kindnet-vff6n/kindnet-cni",
+      "CPU": 0.004823559,
+      "Mem": 20967424
+    },
+    {
+      "Name": "kube-apiserver-desktop-control-plane/kube-apiserver",
+      "CPU": 0.137221433,
+      "Mem": 356270080
+    },
+    {
+      "Name": "kube-controller-manager-desktop-control-plane/kube-controller-manager",
+      "CPU": 0.035523677,
+      "Mem": 66224128
+    },
+    {
+      "Name": "kube-proxy-g9hng/kube-proxy",
+      "CPU": 0.00042078,
+      "Mem": 21696512
+    },
+    {
+      "Name": "kube-proxy-kbn2p/kube-proxy",
+      "CPU": 0.00050812,
+      "Mem": 19181568
+    },
+    {
+      "Name": "kube-proxy-kmnlj/kube-proxy",
+      "CPU": 0.00006242,
+      "Mem": 21692416
+    },
+    {
+      "Name": "kube-scheduler-desktop-control-plane/kube-scheduler",
+      "CPU": 0.013422431,
+      "Mem": 34877440
+    }
+  ],
+  "50": [
+    {
+      "Name": "coredns-565d847f94-bv7r8/coredns",
+      "CPU": 0.00159475,
+      "Mem": 23560192
+    },
+    {
+      "Name": "coredns-565d847f94-sjdt2/coredns",
+      "CPU": 0.001876651,
+      "Mem": 22482944
+    },
+    {
+      "Name": "desktop-control-plane/kubelet",
+      "CPU": 0.020043968,
+      "Mem": 53780480
+    },
+    {
+      "Name": "desktop-control-plane/pods",
+      "CPU": 0.193492411,
+      "Mem": 641167360
+    },
+    {
+      "Name": "desktop-control-plane/runtime",
+      "CPU": 0.00730656,
+      "Mem": 113700864
+    },
+    {
+      "Name": "desktop-worker/kubelet",
+      "CPU": 0.087437144,
+      "Mem": 60952576
+    },
+    {
+      "Name": "desktop-worker/pods",
+      "CPU": 0.185844659,
+      "Mem": 66940928
+    },
+    {
+      "Name": "desktop-worker/runtime",
+      "CPU": 0.17677013,
+      "Mem": 232292352
+    },
+    {
+      "Name": "desktop-worker2/kubelet",
+      "CPU": 0.039813287,
+      "Mem": 67350528
+    },
+    {
+      "Name": "desktop-worker2/pods",
+      "CPU": 0.006772828,
+      "Mem": 73150464
+    },
+    {
+      "Name": "desktop-worker2/runtime",
+      "CPU": 0.031990775,
+      "Mem": 391036928
+    },
+    {
+      "Name": "etcd-desktop-control-plane/etcd",
+      "CPU": 0.048984654,
+      "Mem": 92110848
+    },
+    {
+      "Name": "kindnet-lvq8v/kindnet-cni",
+      "CPU": 0.003088346,
+      "Mem": 16871424
+    },
+    {
+      "Name": "kindnet-sb4wq/kindnet-cni",
+      "CPU": 0.002158473,
+      "Mem": 17350656
+    },
+    {
+      "Name": "kindnet-vff6n/kindnet-cni",
+      "CPU": 0.002770817,
+      "Mem": 20959232
+    },
+    {
+      "Name": "kube-apiserver-desktop-control-plane/kube-apiserver",
+      "CPU": 0.115797675,
+      "Mem": 346832896
+    },
+    {
+      "Name": "kube-controller-manager-desktop-control-plane/kube-controller-manager",
+      "CPU": 0.026174047,
+      "Mem": 65130496
+    },
+    {
+      "Name": "kube-proxy-g9hng/kube-proxy",
+      "CPU": 0.000391319,
+      "Mem": 21688320
+    },
+    {
+      "Name": "kube-proxy-kbn2p/kube-proxy",
+      "CPU": 0.00050812,
+      "Mem": 19181568
+    },
+    {
+      "Name": "kube-proxy-kmnlj/kube-proxy",
+      "CPU": 0.00006242,
+      "Mem": 21692416
+    },
+    {
+      "Name": "kube-scheduler-desktop-control-plane/kube-scheduler",
+      "CPU": 0.006680897,
+      "Mem": 34459648
+    }
+  ],
+  "90": [
+    {
+      "Name": "coredns-565d847f94-bv7r8/coredns",
+      "CPU": 0.002130039,
+      "Mem": 23564288
+    },
+    {
+      "Name": "coredns-565d847f94-sjdt2/coredns",
+      "CPU": 0.002501805,
+      "Mem": 22491136
+    },
+    {
+      "Name": "desktop-control-plane/kubelet",
+      "CPU": 0.024513606,
+      "Mem": 54284288
+    },
+    {
+      "Name": "desktop-control-plane/pods",
+      "CPU": 0.272760452,
+      "Mem": 652967936
+    },
+    {
+      "Name": "desktop-control-plane/runtime",
+      "CPU": 0.011835139,
+      "Mem": 114405376
+    },
+    {
+      "Name": "desktop-worker/kubelet",
+      "CPU": 0.087437144,
+      "Mem": 60952576
+    },
+    {
+      "Name": "desktop-worker/pods",
+      "CPU": 0.185844659,
+      "Mem": 66940928
+    },
+    {
+      "Name": "desktop-worker/runtime",
+      "CPU": 0.17677013,
+      "Mem": 232292352
+    },
+    {
+      "Name": "desktop-worker2/kubelet",
+      "CPU": 0.039813287,
+      "Mem": 67350528
+    },
+    {
+      "Name": "desktop-worker2/pods",
+      "CPU": 0.006772828,
+      "Mem": 73150464
+    },
+    {
+      "Name": "desktop-worker2/runtime",
+      "CPU": 0.031990775,
+      "Mem": 391036928
+    },
+    {
+      "Name": "etcd-desktop-control-plane/etcd",
+      "CPU": 0.058839124,
+      "Mem": 95703040
+    },
+    {
+      "Name": "kindnet-lvq8v/kindnet-cni",
+      "CPU": 0.003088346,
+      "Mem": 16871424
+    },
+    {
+      "Name": "kindnet-sb4wq/kindnet-cni",
+      "CPU": 0.002158473,
+      "Mem": 17350656
+    },
+    {
+      "Name": "kindnet-vff6n/kindnet-cni",
+      "CPU": 0.004823559,
+      "Mem": 20967424
+    },
+    {
+      "Name": "kube-apiserver-desktop-control-plane/kube-apiserver",
+      "CPU": 0.137221433,
+      "Mem": 356270080
+    },
+    {
+      "Name": "kube-controller-manager-desktop-control-plane/kube-controller-manager",
+      "CPU": 0.035523677,
+      "Mem": 66224128
+    },
+    {
+      "Name": "kube-proxy-g9hng/kube-proxy",
+      "CPU": 0.00042078,
+      "Mem": 21696512
+    },
+    {
+      "Name": "kube-proxy-kbn2p/kube-proxy",
+      "CPU": 0.00050812,
+      "Mem": 19181568
+    },
+    {
+      "Name": "kube-proxy-kmnlj/kube-proxy",
+      "CPU": 0.00006242,
+      "Mem": 21692416
+    },
+    {
+      "Name": "kube-scheduler-desktop-control-plane/kube-scheduler",
+      "CPU": 0.013422431,
+      "Mem": 34877440
+    }
+  ],
+  "99": [
+    {
+      "Name": "coredns-565d847f94-bv7r8/coredns",
+      "CPU": 0.002130039,
+      "Mem": 23564288
+    },
+    {
+      "Name": "coredns-565d847f94-sjdt2/coredns",
+      "CPU": 0.002501805,
+      "Mem": 22491136
+    },
+    {
+      "Name": "desktop-control-plane/kubelet",
+      "CPU": 0.024513606,
+      "Mem": 54284288
+    },
+    {
+      "Name": "desktop-control-plane/pods",
+      "CPU": 0.272760452,
+      "Mem": 652967936
+    },
+    {
+      "Name": "desktop-control-plane/runtime",
+      "CPU": 0.011835139,
+      "Mem": 114405376
+    },
+    {
+      "Name": "desktop-worker/kubelet",
+      "CPU": 0.087437144,
+      "Mem": 60952576
+    },
+    {
+      "Name": "desktop-worker/pods",
+      "CPU": 0.185844659,
+      "Mem": 66940928
+    },
+    {
+      "Name": "desktop-worker/runtime",
+      "CPU": 0.17677013,
+      "Mem": 232292352
+    },
+    {
+      "Name": "desktop-worker2/kubelet",
+      "CPU": 0.039813287,
+      "Mem": 67350528
+    },
+    {
+      "Name": "desktop-worker2/pods",
+      "CPU": 0.006772828,
+      "Mem": 73150464
+    },
+    {
+      "Name": "desktop-worker2/runtime",
+      "CPU": 0.031990775,
+      "Mem": 391036928
+    },
+    {
+      "Name": "etcd-desktop-control-plane/etcd",
+      "CPU": 0.058839124,
+      "Mem": 95703040
+    },
+    {
+      "Name": "kindnet-lvq8v/kindnet-cni",
+      "CPU": 0.003088346,
+      "Mem": 16871424
+    },
+    {
+      "Name": "kindnet-sb4wq/kindnet-cni",
+      "CPU": 0.002158473,
+      "Mem": 17350656
+    },
+    {
+      "Name": "kindnet-vff6n/kindnet-cni",
+      "CPU": 0.004823559,
+      "Mem": 20967424
+    },
+    {
+      "Name": "kube-apiserver-desktop-control-plane/kube-apiserver",
+      "CPU": 0.137221433,
+      "Mem": 356270080
+    },
+    {
+      "Name": "kube-controller-manager-desktop-control-plane/kube-controller-manager",
+      "CPU": 0.035523677,
+      "Mem": 66224128
+    },
+    {
+      "Name": "kube-proxy-g9hng/kube-proxy",
+      "CPU": 0.00042078,
+      "Mem": 21696512
+    },
+    {
+      "Name": "kube-proxy-kbn2p/kube-proxy",
+      "CPU": 0.00050812,
+      "Mem": 19181568
+    },
+    {
+      "Name": "kube-proxy-kmnlj/kube-proxy",
+      "CPU": 0.00006242,
+      "Mem": 21692416
+    },
+    {
+      "Name": "kube-scheduler-desktop-control-plane/kube-scheduler",
+      "CPU": 0.013422431,
+      "Mem": 34877440
+    }
+  ]
+}

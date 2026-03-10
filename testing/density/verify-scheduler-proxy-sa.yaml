@@ -1,0 +1,31 @@
+# API server Pod proxy 호출용 ServiceAccount + RBAC
+# (CL2가 쓰는 것과 동일한 경로: .../pods/https:kube-scheduler-<node>:10259/proxy/metrics)
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: scheduler-proxy-test
+  namespace: default
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: scheduler-proxy-reader
+  namespace: kube-system
+rules:
+- apiGroups: [""]
+  resources: ["pods", "pods/proxy"]
+  verbs: ["get"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: scheduler-proxy-reader
+  namespace: kube-system
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: scheduler-proxy-reader
+subjects:
+- kind: ServiceAccount
+  name: scheduler-proxy-test
+  namespace: default
