@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "dataItems": [
+    {
+      "data": {
+        "Perc50": 1.585655,
+        "Perc90": 3.514283,
+        "Perc99": 4.888128
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "DnsLookupLatency"
+      }
+    }
+  ]
+}

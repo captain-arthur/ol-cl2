@@ -1,0 +1,124 @@
+{
+  "pods": [
+    {
+      "name": "kube-scheduler-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-dlhvm",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:32:49 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://792c5aee90375a1a8ce55ddad266be6df9c9902f5f5948366a1e80227f15c800,}"
+        }
+      ]
+    },
+    {
+      "name": "coredns-565d847f94-wg9rd",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:33:05 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://2ae4a6896e298ae05b02d92a63d14bde79004162158deb8ec788af2af68b5ada,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-bkbm5",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:32:26 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://692428c7f56500754d519873d50b69c41fd9b5d9e988d1d3ee31e9161ac1ae8b,}"
+        }
+      ]
+    },
+    {
+      "name": "coredns-565d847f94-d4bhj",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:33:05 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://f750e465decb3c8ea6b5079ec201ff4c3ba9ae00ee0cccae8a47a18d65f0f35f,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-6pzll",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-desktop-control-plane",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:32:27 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://7624acb149422dca90a5818f69192b1a2b50f72ceaa3edfcc1a5319afc7f4ae4,}"
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-n7jqc",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-m275g",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-desktop-control-plane",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": "\u0026ContainerStateTerminated{ExitCode:255,Signal:0,Reason:Unknown,Message:,StartedAt:2026-03-11 02:32:26 +0900 KST,FinishedAt:2026-03-11 02:33:19 +0900 KST,ContainerID:containerd://c9aa9f82d1895274362a1d782558cf0bfbcab11b9cb75c454ca0f3b8c3398243,}"
+        }
+      ]
+    },
+    {
+      "name": "kindnet-jdvpl",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    }
+  ]
+}

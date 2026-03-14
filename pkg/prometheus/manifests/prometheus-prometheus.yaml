@@ -5,8 +5,6 @@
 {{$PROMETHEUS_MEMORY_SCALE_FACTOR := DefaultParam .CL2_PROMETHEUS_MEMORY_SCALE_FACTOR $PROMETHEUS_MEMORY_LIMIT_FACTOR}}
 {{$PROMETHEUS_NODE_SELECTOR := DefaultParam .CL2_PROMETHEUS_NODE_SELECTOR ""}}
 {{$PROMETHEUS_TOLERATE_MASTER := DefaultParam .CL2_PROMETHEUS_TOLERATE_MASTER false}}
-{{$PROMETHEUS_PVC_ENABLED := DefaultParam .CL2_PROMETHEUS_PVC_ENABLED (not $PROMETHEUS_TOLERATE_MASTER)}}
-{{$PROMETHEUS_PVC_STORAGE_CLASS := DefaultParam .PROMETHEUS_PVC_STORAGE_CLASS "ssd"}}
 {{$PROMETHEUS_MEMORY_REQUEST := DefaultParam .PROMETHEUS_MEMORY_REQUEST "10Gi"}}
 
 apiVersion: monitoring.coreos.com/v1
@@ -67,17 +65,8 @@ spec:
   priorityClassName: system-node-critical
   version: v2.40.0
   retention: 7d
-  {{if $PROMETHEUS_PVC_ENABLED}}
-  # We add node tolerations for control-plane nodes in Azure Windows test jobs which do not support Google PD
   storage:
-    volumeClaimTemplate:
-      spec:
-        storageClassName: {{$PROMETHEUS_PVC_STORAGE_CLASS}}
-        resources:
-          requests:
-            # Start with 10Gi, add 10Gi for each 1K nodes.
-            storage: {{MultiplyInt 10 (AddInt 1 (DivideInt .Nodes 1000))}}Gi
-  {{ end }}
+    emptyDir: {}
   query:
     maxSamples: 100000000
   {{if $PROMETHEUS_SCRAPE_WINDOWS_NODES}}
