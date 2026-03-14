@@ -1,0 +1,23 @@
+# kind 클러스터 설정 (controller-manager / scheduler 메트릭을 파드에서 접근 가능하게 함)
+# 사용: kind create cluster --config=kind-config.yaml
+#
+# Docker Desktop UI "Reset cluster" 후 0.0.0.0 클러스터를 쓰려면:
+#   UI에서 Reset cluster 누른 뒤, 터미널에서:
+#   ./scripts/kind-create-with-bind-address.sh
+# (UI 리셋은 우리 설정 파일을 사용하지 않으므로, 리셋 후 위 스크립트로 다시 생성해야 함)
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+    kubeadmConfigPatches:
+      - |
+        kind: ClusterConfiguration
+        apiVersion: kubeadm.k8s.io/v1beta3
+        controllerManager:
+          extraArgs:
+            bind-address: "0.0.0.0"
+        scheduler:
+          extraArgs:
+            bind-address: "0.0.0.0"
+  - role: worker
+  - role: worker

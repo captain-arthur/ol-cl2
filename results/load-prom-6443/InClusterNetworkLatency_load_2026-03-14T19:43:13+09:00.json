@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "dataItems": [
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Metric": "InClusterNetworkLatency"
+      }
+    }
+  ]
+}

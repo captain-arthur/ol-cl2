@@ -1,0 +1,124 @@
+{
+  "pods": [
+    {
+      "name": "coredns-7d764666f9-j76bl",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "coredns-7d764666f9-wxwb8",
+      "containers": [
+        {
+          "name": "coredns",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "etcd-kind-control-plane",
+      "containers": [
+        {
+          "name": "etcd",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-s9j9d",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-s9t6m",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kindnet-zrl4z",
+      "containers": [
+        {
+          "name": "kindnet-cni",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-apiserver-kind-control-plane",
+      "containers": [
+        {
+          "name": "kube-apiserver",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-controller-manager-kind-control-plane",
+      "containers": [
+        {
+          "name": "kube-controller-manager",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-2bnsf",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-v6cxv",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-proxy-wkscx",
+      "containers": [
+        {
+          "name": "kube-proxy",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    },
+    {
+      "name": "kube-scheduler-kind-control-plane",
+      "containers": [
+        {
+          "name": "kube-scheduler",
+          "restartCount": 0,
+          "lastRestartReason": ""
+        }
+      ]
+    }
+  ]
+}

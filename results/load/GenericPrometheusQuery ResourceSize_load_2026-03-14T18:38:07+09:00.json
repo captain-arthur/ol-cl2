@@ -1,0 +1,709 @@
+{
+  "version": "v1",
+  "dataItems": [
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "node.k8s.io",
+        "resource": "runtimeclasses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": -9.5367431640625e-7,
+        "max": -9.5367431640625e-7
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "events"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "thanosrulers"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.011981964111328125,
+        "max": 0.011981964111328125
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "nodes"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "volumeattachments"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "resource.k8s.io",
+        "resource": "resourceclaimtemplates"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.007343292236328125,
+        "max": 0.007343292236328125
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "endpoints"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.059795379638671875,
+        "max": 0.059795379638671875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "rbac.authorization.k8s.io",
+        "resource": "clusterroles"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "podmonitors"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0009069442749023438,
+        "max": 0.0009069442749023438
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "networking.k8s.io",
+        "resource": "servicecidrs"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "resource.k8s.io",
+        "resource": "resourceclaims"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "resource.k8s.io",
+        "resource": "deviceclasses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.010868072509765625,
+        "max": 0.010868072509765625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "flowcontrol.apiserver.k8s.io",
+        "resource": "flowschemas"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0072479248046875,
+        "max": 0.0072479248046875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "servicemonitors"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "batch",
+        "resource": "cronjobs"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0412298583984375,
+        "max": 0.04248619079589844
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "discovery.k8s.io",
+        "resource": "endpointslices"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0062351226806640625,
+        "max": 0.0062351226806640625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "rbac.authorization.k8s.io",
+        "resource": "roles"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "admissionregistration.k8s.io",
+        "resource": "validatingwebhookconfigurations"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.019346237182617188,
+        "max": 0.019346237182617188
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apiregistration.k8s.io",
+        "resource": "apiservices"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "replicationcontrollers"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.024810791015625,
+        "max": 0.025575637817382812
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "services"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "podtemplates"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.009801864624023438,
+        "max": 0.009801864624023438
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apps",
+        "resource": "statefulsets"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.002537841796875,
+        "max": 0.002643585205078125
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "persistentvolumeclaims"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.007185935974121094,
+        "max": 0.007185935974121094
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "serviceaccounts"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0061359405517578125,
+        "max": 0.0061359405517578125
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apps",
+        "resource": "daemonsets"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "alertmanagers"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.02706146240234375,
+        "max": 0.02706146240234375
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apps",
+        "resource": "deployments"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "volumeattributesclasses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 1.3950576782226562,
+        "max": 1.3950576782226562
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apiextensions.k8s.io",
+        "resource": "customresourcedefinitions"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "persistentvolumes"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "resource.k8s.io",
+        "resource": "resourceslices"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.03624248504638672,
+        "max": 0.03624248504638672
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "rbac.authorization.k8s.io",
+        "resource": "clusterrolebindings"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.022745361328124998,
+        "max": 0.02341461181640625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "secrets"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.002955322265625,
+        "max": 0.003078460693359375
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "batch",
+        "resource": "jobs"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0007457733154296875,
+        "max": 0.0007457733154296875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "scheduling.k8s.io",
+        "resource": "priorityclasses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "admissionregistration.k8s.io",
+        "resource": "validatingadmissionpolicies"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0033235549926757812,
+        "max": 0.0033235549926757812
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "prometheuses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0027980804443359375,
+        "max": 0.0027980804443359375
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "coordination.k8s.io",
+        "resource": "leases"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "policy",
+        "resource": "poddisruptionbudgets"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "admissionregistration.k8s.io",
+        "resource": "mutatingwebhookconfigurations"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "limitranges"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.18942291259765623,
+        "max": 0.19631195068359375
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apps",
+        "resource": "replicasets"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "networking.k8s.io",
+        "resource": "networkpolicies"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.007877349853515625,
+        "max": 0.007877349853515625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "rbac.authorization.k8s.io",
+        "resource": "rolebindings"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0018796920776367188,
+        "max": 0.0018796920776367188
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "csinodes"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0065975189208984375,
+        "max": 0.0065975189208984375
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "certificates.k8s.io",
+        "resource": "certificatesigningrequests"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "admissionregistration.k8s.io",
+        "resource": "validatingadmissionpolicybindings"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "alertmanagerconfigs"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.010837554931640625,
+        "max": 0.010837554931640625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "apps",
+        "resource": "controllerrevisions"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.02006446838378906,
+        "max": 0.020751953125
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "networking.k8s.io",
+        "resource": "ipaddresses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0066928863525390625,
+        "max": 0.0066928863525390625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "prometheusrules"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0030803680419921875,
+        "max": 0.0030803680419921875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "namespaces"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.00054168701171875,
+        "max": 0.00054168701171875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "resourcequotas"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.0046844482421875,
+        "max": 0.0046844482421875
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "flowcontrol.apiserver.k8s.io",
+        "resource": "prioritylevelconfigurations"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "autoscaling",
+        "resource": "horizontalpodautoscalers"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "monitoring.coreos.com",
+        "resource": "probes"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "csidrivers"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "csistoragecapacities"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.12497901916503906,
+        "max": 0.12497901916503906
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "pods"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.5685195922851562,
+        "max": 0.5685195922851562
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "",
+        "resource": "configmaps"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0.001129150390625,
+        "max": 0.001129150390625
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "storage.k8s.io",
+        "resource": "storageclasses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "networking.k8s.io",
+        "resource": "ingresses"
+      }
+    },
+    {
+      "data": {
+        "Perc99": 0,
+        "max": 0
+      },
+      "unit": "MiB",
+      "labels": {
+        "group": "networking.k8s.io",
+        "resource": "ingressclasses"
+      }
+    }
+  ]
+}

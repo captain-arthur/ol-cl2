@@ -1,0 +1,3861 @@
+{
+  "version": "v1",
+  "dataItems": [
+    {
+      "data": {
+        "Perc50": 32.440476,
+        "Perc90": 95.48387,
+        "Perc99": 360.666666
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "314",
+        "Resource": "replicasets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 32.780612,
+        "Perc90": 101.578947,
+        "Perc99": 347.666666
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "353",
+        "Resource": "deployments",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 30.76923,
+        "Perc90": 81.111111,
+        "Perc99": 335.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "replicasets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 34.051724,
+        "Perc90": 115.714285,
+        "Perc99": 320.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "85",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 28.070175,
+        "Perc90": 57.5,
+        "Perc99": 271.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "deployments",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 30.813953,
+        "Perc90": 80.652173,
+        "Perc99": 240.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "345",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 35.775862,
+        "Perc90": 96.388888,
+        "Perc99": 233.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "91",
+        "Resource": "serviceaccounts",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "token",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 27.096774,
+        "Perc90": 48.774193,
+        "Perc99": 231.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "536",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 50,
+        "Perc90": 180,
+        "Perc99": 198
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 87.5,
+        "Perc90": 170,
+        "Perc99": 197
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "168",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 35,
+        "Perc90": 164.999999,
+        "Perc99": 196.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "11",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 30,
+        "Perc90": 85,
+        "Perc99": 185.999999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "86",
+        "Resource": "endpoints",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 30.555555,
+        "Perc90": 86,
+        "Perc99": 185.333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "130",
+        "Resource": "endpointslices",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 31.048387,
+        "Perc90": 80.416666,
+        "Perc99": 174.333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "81",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "binding",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 27.89855,
+        "Perc90": 53,
+        "Perc99": 174.333333
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "184",
+        "Resource": "leases",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 28.562653,
+        "Perc90": 63.068181,
+        "Perc99": 171.923076
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "647",
+        "Resource": "events",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 50,
+        "Perc90": 90,
+        "Perc99": 99
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 50,
+        "Perc90": 90,
+        "Perc99": 99
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "persistentvolumes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 32.142857,
+        "Perc90": 77.5,
+        "Perc99": 97.749999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "11",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 30,
+        "Perc90": 70,
+        "Perc99": 97
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "8",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 28.571428,
+        "Perc90": 60,
+        "Perc99": 96
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "86",
+        "Resource": "replicasets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 28.125,
+        "Perc90": 55,
+        "Perc99": 95.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "14",
+        "Resource": "persistentvolumes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 26.960784,
+        "Perc90": 48.529411,
+        "Perc99": 93.124999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "133",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "/readyz",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "9",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "apis",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "3",
+        "Resource": "limitranges",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "5",
+        "Resource": "daemonsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "statefulsets",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "nodes",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "deployments",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "36",
+        "Resource": "endpoints",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "nodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "21",
+        "Resource": "subjectaccessreviews",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "daemonsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "9",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "api",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "priorityclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "daemonsets",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "13",
+        "Resource": "endpoints",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "16",
+        "Resource": "daemonsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "secrets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "404",
+        "Resource": "secrets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "36",
+        "Resource": "services",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "6",
+        "Resource": "jobs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "configmaps",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "nodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "6",
+        "Resource": "serviceaccounts",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "controllerrevisions",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "jobs",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "jobs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "18",
+        "Resource": "tokenreviews",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "3",
+        "Resource": "events",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "36",
+        "Resource": "endpointslices",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "13",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "/livez",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "pods",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "replicasets",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "15",
+        "Resource": "endpointslices",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.5
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "82",
+        "Resource": "configmaps",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "88",
+        "Resource": "pods",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "80",
+        "Resource": "prometheuses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "APPLY"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "81",
+        "Resource": "services",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "129",
+        "Resource": "secrets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "34",
+        "Resource": "ipaddresses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "323",
+        "Resource": "secrets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 25,
+        "Perc90": 45,
+        "Perc99": 49.499999
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "83",
+        "Resource": "services",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicecidrs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "roles",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "podmonitors",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "certificatesigningrequests",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "jobs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "storageclasses",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterroles",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "podtemplates",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "thanosrulers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prioritylevelconfigurations",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheuses",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "configmaps",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourceclaimtemplates",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "daemonsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "persistentvolumes",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "jobs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "rolebindings",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "deployments",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "limitranges",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "daemonsets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterrolebindings",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "configmaps",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "serviceaccounts",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheuses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheusrules",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagerconfigs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "probes",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "poddisruptionbudgets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheusrules",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "csistoragecapacities",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "services",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "horizontalpodautoscalers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterroles",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourcequotas",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterroles",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "leases",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "csinodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "replicasets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "flowschemas",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "podmonitors",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "networkpolicies",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "endpointslices",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "csistoragecapacities",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "statefulsets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "secrets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "rolebindings",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagerconfigs",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "podtemplates",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "daemonsets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "selfsubjectaccessreviews",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "priorityclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "services",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "openapi/v3",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "75",
+        "Resource": "configmaps",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "WATCHLIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "events",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "-4",
+        "Subresource": "log",
+        "Verb": "CONNECT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagerconfigs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "replicasets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourceclaimtemplates",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "certificatesigningrequests",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "approval",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "5",
+        "Resource": "services",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "serviceaccounts",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "replicationcontrollers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicemonitors",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "csinodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "replicationcontrollers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "deployments",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "48",
+        "Resource": "configmaps",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "services",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "jobs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "flowschemas",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "APPLY"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "leases",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheusrules",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "networkpolicies",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "secrets",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterroles",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "APPLY"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "storageclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "controllerrevisions",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "certificatesigningrequests",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "controllerrevisions",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicecidrs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "certificatesigningrequests",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "67",
+        "Resource": "secrets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "WATCHLIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "jobs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "customresourcedefinitions",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "secrets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "podmonitors",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "33",
+        "Resource": "replicasets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "leases",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheusrules",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourceclaims",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "nodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "controllerrevisions",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "jobs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "customresourcedefinitions",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "cronjobs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterrolebindings",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "probes",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "5",
+        "Resource": "endpoints",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourcequotas",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "endpointslices",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "endpointslices",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicemonitors",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "deployments",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "pods",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "priorityclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "nodes",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "leases",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "rolebindings",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourcequotas",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "65",
+        "Resource": "deployments",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "certificatesigningrequests",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "ingresses",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "/healthz",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "",
+        "Scope": "",
+        "SlowCount": "0",
+        "Subresource": "openapi/v3/",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "endpointslices",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "cronjobs",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "networkpolicies",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "configmaps",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "poddisruptionbudgets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "services",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheuses",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "daemonsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "PATCH"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "ipaddresses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "thanosrulers",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "storageclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "thanosrulers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "rolebindings",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "endpoints",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "deployments",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourceclaims",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicemonitors",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "statefulsets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "roles",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "roles",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "events",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "controllerrevisions",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "leases",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "replicasets",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheuses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "clusterrolebindings",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourceslices",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "apiservices",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "POST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagers",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "horizontalpodautoscalers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicecidrs",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "status",
+        "Verb": "APPLY"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "storageclasses",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "configmaps",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "serviceaccounts",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "pods",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "prometheuses",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "servicemonitors",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "resourcequotas",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "alertmanagers",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "probes",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "events",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "1",
+        "Resource": "persistentvolumeclaims",
+        "Scope": "cluster",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "4",
+        "Resource": "endpoints",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "2",
+        "Resource": "statefulsets",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "GET"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "roles",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "DELETE"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "namespaces",
+        "Scope": "resource",
+        "SlowCount": "0",
+        "Subresource": "finalize",
+        "Verb": "PUT"
+      }
+    },
+    {
+      "data": {
+        "Perc50": 0,
+        "Perc90": 0,
+        "Perc99": 0
+      },
+      "unit": "ms",
+      "labels": {
+        "Count": "0",
+        "Resource": "ingresses",
+        "Scope": "namespace",
+        "SlowCount": "0",
+        "Subresource": "",
+        "Verb": "LIST"
+      }
+    }
+  ]
+}

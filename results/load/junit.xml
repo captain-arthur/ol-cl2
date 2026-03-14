@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <testsuite name="ClusterLoaderV2" tests="0" failures="0" errors="0" time="285.71">
-      <testcase name="load overall (testing/load/config.yaml)" classname="ClusterLoaderV2" time="285.678924792"></testcase>
-      <testcase name="load: [step: 01] starting measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.013232875"></testcase>
-      <testcase name="load: [step: 01] starting measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.013878625"></testcase>
-      <testcase name="load: [step: 01] starting measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.113984917"></testcase>
-      <testcase name="load: [step: 01] starting measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="105.145819667"></testcase>
-      <testcase name="load: [step: 01] starting measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="105.097267667"></testcase>
-      <testcase name="load: [step: 01] starting measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.013849458"></testcase>
-      <testcase name="load: [step: 01] starting measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.013749583"></testcase>
-      <testcase name="load: [step: 01] starting measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.1674345"></testcase>
-      <testcase name="load: [step: 01] starting measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.01341525"></testcase>
-      <testcase name="load: [step: 02] Creating k8s services" classname="ClusterLoaderV2" time="0.184239458"></testcase>
-      <testcase name="load: [step: 03] Creating PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.004518083"></testcase>
-      <testcase name="load: [step: 04] create objects configmaps and secrets" classname="ClusterLoaderV2" time="6.308245958"></testcase>
-      <testcase name="load: [step: 05] Starting measurement for &#39;create objects&#39; [00] - " classname="ClusterLoaderV2" time="0.212521333"></testcase>
-      <testcase name="load: [step: 06] create objects" classname="ClusterLoaderV2" time="9.04310725"></testcase>
-      <testcase name="load: [step: 07] Waiting for &#39;create objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="74.456546125"></testcase>
-      <testcase name="load: [step: 08] Starting measurement for &#39;scale and update objects&#39; [00] - " classname="ClusterLoaderV2" time="0.002381792"></testcase>
-      <testcase name="load: [step: 09] scale and update objects" classname="ClusterLoaderV2" time="1.993404833"></testcase>
-      <testcase name="load: [step: 10] Waiting for &#39;scale and update objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="24.984272708"></testcase>
-      <testcase name="load: [step: 11] Starting measurement for &#39;delete objects&#39; [00] - " classname="ClusterLoaderV2" time="0.003519166"></testcase>
-      <testcase name="load: [step: 12] delete objects" classname="ClusterLoaderV2" time="8.87234875"></testcase>
-      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="22.34820875"></testcase>
-      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [01] - WaitForPVCsToBeDeleted" classname="ClusterLoaderV2" time="5.054995833"></testcase>
-      <testcase name="load: [step: 14] delete objects configmaps and secrets" classname="ClusterLoaderV2" time="6.307452333"></testcase>
-      <testcase name="load: [step: 15] Deleting PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.003705083"></testcase>
-      <testcase name="load: [step: 16] Deleting k8s services" classname="ClusterLoaderV2" time="0.194671791"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.141425042"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.493382667"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.017680959"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="0.011860417"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="0.02625"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.043921834"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.03372325"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.529512542"></testcase>
-      <testcase name="load: [step: 17] gathering measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.05601225"></testcase>
+  <testsuite name="ClusterLoaderV2" tests="0" failures="4" errors="0" time="166.08">
+      <testcase name="load overall (testing/load/config.yaml)" classname="ClusterLoaderV2" time="166.049765583">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action start failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]&#xA;measurement call NetworkProgrammingLatency - NetworkProgrammingLatency error: got unexpected number of samples: 0&#xA;measurement call TestMetrics - TestMetrics error: [action gather failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 01] starting measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.014382958"></testcase>
+      <testcase name="load: [step: 01] starting measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.014350958"></testcase>
+      <testcase name="load: [step: 01] starting measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.125354916"></testcase>
+      <testcase name="load: [step: 01] starting measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="75.246449833"></testcase>
+      <testcase name="load: [step: 01] starting measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="60.154759541"></testcase>
+      <testcase name="load: [step: 01] starting measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.024119666"></testcase>
+      <testcase name="load: [step: 01] starting measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.014432458"></testcase>
+      <testcase name="load: [step: 01] starting measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.218008875">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action start failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 01] starting measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.024169333"></testcase>
+      <testcase name="load: [step: 02] Creating k8s services" classname="ClusterLoaderV2" time="0.172821458"></testcase>
+      <testcase name="load: [step: 03] Creating PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.003609458"></testcase>
+      <testcase name="load: [step: 04] create objects configmaps and secrets" classname="ClusterLoaderV2" time="6.308315333"></testcase>
+      <testcase name="load: [step: 05] Starting measurement for &#39;create objects&#39; [00] - " classname="ClusterLoaderV2" time="0.20775225"></testcase>
+      <testcase name="load: [step: 06] create objects" classname="ClusterLoaderV2" time="9.020666958"></testcase>
+      <testcase name="load: [step: 07] Waiting for &#39;create objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="21.769529917"></testcase>
+      <testcase name="load: [step: 08] Starting measurement for &#39;scale and update objects&#39; [00] - " classname="ClusterLoaderV2" time="0.003727541"></testcase>
+      <testcase name="load: [step: 09] scale and update objects" classname="ClusterLoaderV2" time="1.982260417"></testcase>
+      <testcase name="load: [step: 10] Waiting for &#39;scale and update objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="5.025016958"></testcase>
+      <testcase name="load: [step: 11] Starting measurement for &#39;delete objects&#39; [00] - " classname="ClusterLoaderV2" time="0.004067959"></testcase>
+      <testcase name="load: [step: 12] delete objects" classname="ClusterLoaderV2" time="8.940057"></testcase>
+      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="5.0278455"></testcase>
+      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [01] - WaitForPVCsToBeDeleted" classname="ClusterLoaderV2" time="5.06249525"></testcase>
+      <testcase name="load: [step: 14] delete objects configmaps and secrets" classname="ClusterLoaderV2" time="6.310317333"></testcase>
+      <testcase name="load: [step: 15] Deleting PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.004624042"></testcase>
+      <testcase name="load: [step: 16] Deleting k8s services" classname="ClusterLoaderV2" time="0.240407833"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.1185045"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.455410042"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.096775125"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="0.022273917"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="0.034559125"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.030182">
+          <failure type="Failure">:0&#xA;[measurement call NetworkProgrammingLatency - NetworkProgrammingLatency error: got unexpected number of samples: 0]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 17] gathering measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.026853084"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.679310792">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action gather failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 17] gathering measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.049859834"></testcase>
   </testsuite>

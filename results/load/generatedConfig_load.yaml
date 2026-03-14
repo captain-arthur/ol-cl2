@@ -3,7 +3,7 @@ dependencies: []
 automanagednamespaces: 0
 namespace:
   number: 2
-  prefix: test-na07d2
+  prefix: test-xc99rz
   deletestalenamespaces: false
   deleteautomanagednamespaces: true
   enableexistingnamespaces: false

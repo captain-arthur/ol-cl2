@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="ClusterLoaderV2" tests="0" failures="4" errors="0" time="159.375">
+      <testcase name="load overall (testing/load/config.yaml)" classname="ClusterLoaderV2" time="159.339657042">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action start failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]&#xA;measurement call NetworkProgrammingLatency - NetworkProgrammingLatency error: got unexpected number of samples: 0&#xA;measurement call TestMetrics - TestMetrics error: [action gather failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 01] starting measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.020307167"></testcase>
+      <testcase name="load: [step: 01] starting measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.020362042"></testcase>
+      <testcase name="load: [step: 01] starting measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.121667292"></testcase>
+      <testcase name="load: [step: 01] starting measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="75.221968084"></testcase>
+      <testcase name="load: [step: 01] starting measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="60.109625125"></testcase>
+      <testcase name="load: [step: 01] starting measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.020319209"></testcase>
+      <testcase name="load: [step: 01] starting measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.02055475"></testcase>
+      <testcase name="load: [step: 01] starting measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.196055834">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action start failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 01] starting measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.021023625"></testcase>
+      <testcase name="load: [step: 02] Creating k8s services" classname="ClusterLoaderV2" time="0.185882875"></testcase>
+      <testcase name="load: [step: 03] Creating PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.004043292"></testcase>
+      <testcase name="load: [step: 04] create objects configmaps and secrets" classname="ClusterLoaderV2" time="6.308033208"></testcase>
+      <testcase name="load: [step: 05] Starting measurement for &#39;create objects&#39; [00] - " classname="ClusterLoaderV2" time="0.205312"></testcase>
+      <testcase name="load: [step: 06] create objects" classname="ClusterLoaderV2" time="8.944819125"></testcase>
+      <testcase name="load: [step: 07] Waiting for &#39;create objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="14.999798917"></testcase>
+      <testcase name="load: [step: 08] Starting measurement for &#39;scale and update objects&#39; [00] - " classname="ClusterLoaderV2" time="0.004885125"></testcase>
+      <testcase name="load: [step: 09] scale and update objects" classname="ClusterLoaderV2" time="1.9883385"></testcase>
+      <testcase name="load: [step: 10] Waiting for &#39;scale and update objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="5.035657333"></testcase>
+      <testcase name="load: [step: 11] Starting measurement for &#39;delete objects&#39; [00] - " classname="ClusterLoaderV2" time="0.002125667"></testcase>
+      <testcase name="load: [step: 12] delete objects" classname="ClusterLoaderV2" time="8.977777334"></testcase>
+      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [00] - " classname="ClusterLoaderV2" time="5.066586"></testcase>
+      <testcase name="load: [step: 13] Waiting for &#39;delete objects&#39; to be completed [01] - WaitForPVCsToBeDeleted" classname="ClusterLoaderV2" time="5.066587667"></testcase>
+      <testcase name="load: [step: 14] delete objects configmaps and secrets" classname="ClusterLoaderV2" time="6.307814416"></testcase>
+      <testcase name="load: [step: 15] Deleting PriorityClass for DaemonSets" classname="ClusterLoaderV2" time="0.002843125"></testcase>
+      <testcase name="load: [step: 16] Deleting k8s services" classname="ClusterLoaderV2" time="0.326690208"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [00] - APIResponsivenessPrometheus" classname="ClusterLoaderV2" time="0.093493542"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [01] - APIResponsivenessPrometheusSimple" classname="ClusterLoaderV2" time="0.484223542"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [02] - CreatePhasePodStartupLatency" classname="ClusterLoaderV2" time="0.060867625"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [03] - InClusterNetworkLatency" classname="ClusterLoaderV2" time="0.027600125"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [04] - SLOMeasurement" classname="ClusterLoaderV2" time="0.034533709"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [05] - NetworkProgrammingLatency" classname="ClusterLoaderV2" time="0.025786459">
+          <failure type="Failure">:0&#xA;[measurement call NetworkProgrammingLatency - NetworkProgrammingLatency error: got unexpected number of samples: 0]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 17] gathering measurements [06] - Kube-proxy partial iptables restore failures" classname="ClusterLoaderV2" time="0.024940834"></testcase>
+      <testcase name="load: [step: 17] gathering measurements [07] - TestMetrics" classname="ClusterLoaderV2" time="0.689673">
+          <failure type="Failure">:0&#xA;[measurement call TestMetrics - TestMetrics error: [action gather failed for SchedulingMetrics measurement: unknown (get pods https:kube-scheduler-kind-control-plane:10259)]]&#xA;:0</failure>
+      </testcase>
+      <testcase name="load: [step: 17] gathering measurements [08] - ResourceSize" classname="ClusterLoaderV2" time="0.049846375"></testcase>
+  </testsuite>
